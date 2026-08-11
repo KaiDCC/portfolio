@@ -809,34 +809,51 @@ html.dark .custom-github-icon {
 .carousel-indicators .dot.active {
   background-color: var(--title-color);
 }
+/*fim carrossel*/
+
 
 @media (max-width: 768px) {
-  .carousel-container {
-    padding: 12px; 
-  }
-
-  .carousel-image-wrapper {
-    margin-bottom: 12px;
-  }
-
-  .carousel-image {
-    max-height: 250px; 
-  }
-
-  .carousel-btn {
-    padding: 4px;
+  #projetos {
+    padding: 60px 16px 60px;
   }
   
-  .carousel-info h4 {
-    font-size: 1.1rem;
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .project-card img:not(.custom-github-icon) {
+    height: 180px;
   }
 
+  .modal-content {
+    padding: 16px;
+    width: 98%;
+  }
+  
+  .modal-header {
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+  }
+  
+  .carousel-container {
+    padding: 8px;
+  }
+  
+  .carousel-image {
+    max-height: 250px; 
+    width: 100%;
+  }
+
+  .carousel-info h4 {
+    font-size: 1.05rem;
+  }
+  
   .carousel-info p {
     font-size: 0.9rem;
+    line-height: 1.4;
   }
 }
-
-/*fim carrossel*/
 
 /* fim projeto */
 
