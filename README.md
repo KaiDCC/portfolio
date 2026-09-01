@@ -2,7 +2,7 @@
 
 Desenvolvi esse projeto para apresentar minha trajetória, evolução técnica e alguns projetos que construí como Desenvolvedora Full-Stack.
 
-🔗 **[Acesse o portfólio online aqui]( )**
+🔗 **[Acesse o portfólio online aqui](https://portfolio-kailane.netlify.app/)**
 
 ## Tecnologias Utilizadas
 

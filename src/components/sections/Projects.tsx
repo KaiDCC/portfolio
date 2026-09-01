@@ -12,7 +12,7 @@ export default function Projects() {
         {
             title: "Gestão Societaria",
             description: "Sistema interno criado para automatizar e centralizar rotinas de gestão societária, permitindo acompanhar vencimentos de alvarás e certificados, gerar alertas e produzir contratos padronizados. \nDesenvolvi o projeto do zero com base nas necessidades do setor responsável e nas diretrizes técnicas definidas pelo tech lead. Atualmente, a solução é utilizada localmente por uma empresa de contabilidade que atende mais de 700 empresas.",
-            tags: ["React", "Flask", "Node.js", "SQLite"],
+            tags: ["React", "Python", "Flask", "Node.js", "SQLite"],
             imageUrl: "/projects/societario/tela_dashboard.png",
             githubLink: "https://github.com/KaiDCC/gestao-societaria"
             
@@ -23,7 +23,7 @@ export default function Projects() {
             tipo: "privado",
             description: "Plataforma de automação contábil criada para simplificar a entrega de obrigações fiscais, como MIT e DCTFWeb, centralizando transmissões, recibos e guias fiscais. \nAtuei na evolução e manutenção Full Stack da plataforma entre 01/09/2025 e 24/04/2026, trabalhando no layout e na componentização do front-end, além da implementação de novas funcionalidades e APIs no back-end. O sistema permanece em produção e possui repositório privado.",
             
-            tags: ["React", "FastAPI", "MongoDB", "AWS", "Python", "Repositório Privado"], 
+            tags: ["React", "Python", "FastAPI", "MongoDB", "AWS - S3", "Repositório Privado"], 
             imageUrl: "/projects/zenga/login_zenga.png", 
             
             overview: "A Zenga elimina a necessidade de acesso manual ao e-CAC, permitindo transmissões, downloads de recibos e emissão de guias em lote de forma centralizada. O sistema consome arquivos JSON gerados por sistemas contábeis externos e os processa de forma autônoma. Devido à sensibilidade dos dados fiscais, a aplicação conta com criptografia de ponta, infraestrutura em nuvem e mecanismos estritos de concorrência para garantir total integridade, performance e confidencialidade.",
@@ -132,6 +132,15 @@ export default function Projects() {
                 "- Controle de Acesso Baseado em Cargos (RBAC): Distinção rigorosa entre usuários Administradores (acesso total) e Normais (operações restritas).",
                 "- Bloqueios de Status e Sanitização: A interface impede ações duplicadas aguardando o status final do processamento. O sistema conta com utilitários próprios de backend para sanitizar e validar matematicamente documentos e formatações de datas."
             ]
+        },
+
+        // PROJETO 3
+        {
+            title: "Gestão e Automação de Contratos",
+            description: "Aplicação full-stack que desenvolvi para automatizar o fluxo de assinaturas digitais. Projetei a arquitetura para gerar contratos dinâmicos em DOCX, realizar a conversão automática para PDF e integrar nativamente com a API da D4Sign. A infraestrutura foi inteiramente conteinerizada com Docker e otimizada para deploy em instâncias AWS EC2, utilizando MongoDB Atlas.",
+            tags: ["React", "Python", "FastAPI", "MongoDB", "AWS - EC2", "Docker"],
+            imageUrl: "/projects/contratos/contratos.png",
+            githubLink: "https://github.com/KaiDCC/d4sign-contract-integration"
         }
     ];
 
