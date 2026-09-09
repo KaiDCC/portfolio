@@ -9,14 +9,15 @@ export default function Projects() {
 
     const myProjects = [
         // PROJETO 1
+
         {
-            title: "Gestão Societaria",
-            description: "Sistema interno criado para automatizar e centralizar rotinas de gestão societária, permitindo acompanhar vencimentos de alvarás e certificados, gerar alertas e produzir contratos padronizados. \nDesenvolvi o projeto do zero com base nas necessidades do setor responsável e nas diretrizes técnicas definidas pelo tech lead. Atualmente, a solução é utilizada localmente por uma empresa de contabilidade que atende mais de 700 empresas.",
-            tags: ["React", "Python", "Flask", "Node.js", "SQLite"],
-            imageUrl: "/projects/societario/tela_dashboard.png",
-            githubLink: "https://github.com/KaiDCC/gestao-societaria"
-            
+            title: "Sistema de Apuração Fiscal",
+            description: "Aplicação full-stack on-premise que desenvolvi para automatizar a gestão operacional do setor fiscal. Projetei a arquitetura do backend para orquestrar filas de transmissão de guias, realizar leitura avançada de XMLs via AWS S3 e cruzar dados em tempo real com o banco SQL do sistema Domínio.",
+            tags: ["React", "Python", "FastAPI", "MongoDB", "AWS S3", "Sybase SQL", "RPA"],
+            imageUrl: "/projects/fiscal/dashboard.png",
+            githubLink: "https://github.com/KaiDCC/sistema-apuracao-fiscal"
         },
+        
         // PROJETO 2
         {
             title: "Zenga - DCTFWeb sem e-CAC",
@@ -141,7 +142,17 @@ export default function Projects() {
             tags: ["React", "Python", "FastAPI", "MongoDB", "AWS - EC2", "Docker"],
             imageUrl: "/projects/contratos/contratos.png",
             githubLink: "https://github.com/KaiDCC/d4sign-contract-integration"
-        }
+        },
+
+        // PROJETO 4
+        {
+            title: "Gestão Societaria",
+            description: "Sistema interno criado para automatizar e centralizar rotinas de gestão societária, permitindo acompanhar vencimentos de alvarás e certificados, gerar alertas e produzir contratos padronizados. \nDesenvolvi o projeto do zero com base nas necessidades do setor responsável e nas diretrizes técnicas definidas pelo tech lead. Atualmente, a solução é utilizada localmente por uma empresa de contabilidade que atende mais de 700 empresas.",
+            tags: ["React", "Python", "Flask", "Node.js", "SQLite"],
+            imageUrl: "/projects/societario/tela_dashboard.png",
+            githubLink: "https://github.com/KaiDCC/gestao-societaria"
+            
+        },
     ];
 
     return (
